@@ -71,9 +71,6 @@ export default function Home() {
             <span>Equafi</span>
           </a>
           <div className="nav-links">
-            <a href="#services">Services</a>
-            <a href="#pricing">Plans</a>
-            <a href="#contact">Contact</a>
           </div>
           <a className="nav-cta" href="#contact">
             Contact Equafi
@@ -81,71 +78,6 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="hero-section" aria-labelledby="hero-title">
-        <div className="hero-grid">
-          <div className="hero-copy">
-            <p className="eyebrow">Financial operations, made clear</p>
-            <h1 id="hero-title">Finance support that keeps business moving.</h1>
-            <p className="hero-text">
-              Equafi gives Canadian businesses reliable bookkeeping, tax, payroll,
-              and payment operations, with a dedicated team behind the numbers.
-            </p>
-            <div className="hero-actions">
-              <a className="button button-primary" href="#pricing">
-                Explore plans
-              </a>
-              <a className="button button-secondary" href="#contact">
-                Speak with Equafi <span aria-hidden="true">&#8594;</span>
-              </a>
-            </div>
-            <div className="trust-row" aria-label="Equafi service highlights">
-              <span>CRA reporting</span>
-              <span>Payroll support</span>
-              <span>Dedicated support</span>
-            </div>
-          </div>
-
-          <div className="hero-dashboard" aria-label="Finance overview preview">
-            <div className="dashboard-header">
-              <div>
-                <p>Equafi overview</p>
-                <strong>July 2026</strong>
-              </div>
-              <span className="status-dot">On track</span>
-            </div>
-            <div className="dashboard-main">
-              <div className="balance-card">
-                <span>Books reconciled</span>
-                <strong>100%</strong>
-                <small>Up to date this month</small>
-              </div>
-              <div className="activity-card">
-                <div className="activity-heading">
-                  <span>Monthly activity</span>
-                  <strong>+18.4%</strong>
-                </div>
-                <div className="activity-chart" aria-hidden="true">
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                </div>
-                <div className="chart-labels" aria-hidden="true">
-                  <span>Jan</span><span>Apr</span><span>Jul</span>
-                </div>
-              </div>
-            </div>
-            <div className="dashboard-footer">
-              <span className="gateway-mark">E</span>
-              <p><strong>Reporting ready</strong><br />Finance operations aligned</p>
-              <span aria-hidden="true">&#8599;</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="services-section" id="services" aria-labelledby="services-title">
         <div className="section-intro">
