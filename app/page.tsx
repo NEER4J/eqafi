@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SubscribeButton from "./components/SubscribeButton";
 
 const plans = [
@@ -68,7 +69,7 @@ export default function Home() {
       <header className="site-header">
         <nav className="site-nav" aria-label="Main navigation">
           <a className="brand-mark" href="#top" aria-label="Equafi home">
-            <span>Equafi</span>
+            <Image src="/logo.jpeg" alt="Equafi Bookkeeping & Accounting" width={1425} height={489} priority />
           </a>
           <div className="nav-links">
           </div>
@@ -161,7 +162,9 @@ export default function Home() {
       </section>
 
       <footer className="site-footer">
-        <a className="brand-mark" href="#top"><span>Equafi</span></a>
+        <a className="brand-mark" href="#top" aria-label="Equafi home">
+          <Image src="/logo.jpeg" alt="Equafi Bookkeeping & Accounting" width={1425} height={489} />
+        </a>
         <address>5160 Explorer Dr, Unit-30, Mississauga, ON L4W 4T7</address>
         <a href="mailto:info@equafi.ca">info@equafi.ca</a>
       </footer>
